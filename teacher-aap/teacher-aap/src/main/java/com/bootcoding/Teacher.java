@@ -1,4 +1,4 @@
-package teacher.application;
+package com.bootcoding;
 
 import org.springframework.stereotype.Component;
 

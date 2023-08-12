@@ -1,4 +1,4 @@
-package teacher.application;
+package com.bootcoding;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Employee" />
         <module name="coupon-aap" />
         <module name="teacher-aap" />
-        <module name="Employee" />
+        <module name="Voucher" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Employee" options="-parameters" />
+      <module name="Voucher" options="-parameters" />
       <module name="coupon-aap" options="-parameters" />
       <module name="teacher-aap" options="-parameters" />
     </option>

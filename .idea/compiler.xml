@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Employee" />
+        <module name="patient-app" />
         <module name="coupon-aap" />
         <module name="teacher-aap" />
         <module name="Voucher" />
@@ -19,6 +20,7 @@
       <module name="Employee" options="-parameters" />
       <module name="Voucher" options="-parameters" />
       <module name="coupon-aap" options="-parameters" />
+      <module name="patient-app" options="-parameters" />
       <module name="teacher-aap" options="-parameters" />
     </option>
   </component>

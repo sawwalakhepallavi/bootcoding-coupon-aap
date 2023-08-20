@@ -9,11 +9,12 @@ public class PatientService {
 
     public String insertPatient() {
 //        System.out.println(Patient );
-        return "sucsecc";
+        return "success";
     }
 
     
 
     public String insertMultiplePatient() {
+        return "success";
     }
 }

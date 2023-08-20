@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/Patient")
 public class PatientController {
@@ -19,7 +21,9 @@ public class PatientController {
         return patientService.insertPatient();
     }
 
-    public String insertMultiplePatient(@RequestBody Patient patient){
+
+    @PostMapping("/ForMultiplePatient")
+    public String insertMultiplePatient(@RequestBody List<Patient> patient){
         return patientService.insertMultiplePatient();
     }
 }

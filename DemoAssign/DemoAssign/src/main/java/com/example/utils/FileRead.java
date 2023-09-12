@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 @Component
 public class FileRead {
-    public Fridge readData(){
+    public boolean readData(){
         try {
             File file = new File("C:\\Users\\Hp\\Downloads\\assignment.csv");
             Scanner scanner = new Scanner(file);
@@ -26,6 +26,7 @@ public class FileRead {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
-        return null;
+
+        return true;
     }
 }
